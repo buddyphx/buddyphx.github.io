@@ -6,8 +6,8 @@ body {
   text-align: center;
   font-family: "Verdana";
   background-image: url(http://bsnscb.com/data/out/119/39048154-low-poly-wallpapers.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  /*background-position: center;*/
+  background-repeat:space;
 }
 
 h1 {
