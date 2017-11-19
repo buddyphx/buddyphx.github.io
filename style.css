@@ -4,7 +4,8 @@ img {
 
 body {
   text-align: center;
-  font-family: "Verdana";
+  text-shadow: 5px 5px 10px black;
+  font-family: "Spectral SC";
   background-image: url(http://bsnscb.com/data/out/119/39048154-low-poly-wallpapers.png);
   background-position: 50%50%);
   background-size: cover;
