@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+body, div, h1, h2 {
+  margin: 0; padding: 0; border: 0;
+}
+
+
+body {
+  text-align: center;
+}
+
+header {
+  height: 100px;
+  background: #dbdbdb;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+#banner {
+  width: 100%
+
+  position: fixed;
+  height: 500px;
+  top: 100px;
+  background: #707070;
+  z-index: -10;
+}
+
+#banner h2{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  width: 100%
+  position: relative;
+  height: 1500px;
+  top: -600px;
+  background: #ebebeb;
+  z-index: 5;
+}
+
+#content p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
