@@ -92,16 +92,16 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   font-size: 135%;
   font-weight: 400;
-  color: #3A6168
+  color: #1E90FF;
   text-transform: uppercase;
   text-decoration: none;
-  border: solid #3A6168;
+  border: solid #1E90FF;
   padding: 10px 20px;
   border-radius: 9px;
   transition: all 0.5s;
 }
 .btn:hover {
-  color: #CBDFD6
+  color: #CBDFD6;
   border: solid #CBDFD6 2px;
 }
 
