@@ -20,7 +20,7 @@ header {
 #banner {
   background: url("blue-banner.png");
   background-size: cover;
-  background-position: 50%50%;
+  background-position: 50%, 50%;
   background-repeat: no-repeat;
   width: 100%
   position: fixed;
@@ -35,6 +35,8 @@ header {
   left: 50%;
   margin-right: -50%;
   margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -48,6 +50,22 @@ header {
 }
 
 #content p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  margin: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  background: url("blue-banner.png");
+  background-size: cover;
+  background-position: 50%, 50%;
+  background-repeat: no-repeat;
+  width: 100%;
   position: relative;
   top: 50%;
   left: 50%;
