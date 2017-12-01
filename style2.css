@@ -23,7 +23,7 @@ header {
   background-position: 50%, 50%;
   background-repeat: no-repeat; */
   width: 100%
-  position: fixed;
+  position: sticky;
   height: 500px;
   top: 100px;
   z-index: -10;
